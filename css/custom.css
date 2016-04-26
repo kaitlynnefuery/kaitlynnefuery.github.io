@@ -1,0 +1,8 @@
+
+section .white-part {
+    $white-part;
+}
+
+section .grey-part {
+    background-color: $grey-part;
+}
