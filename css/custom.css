@@ -1,6 +1,6 @@
 
 section .white-part {
-    $white-part;
+   background-color: $white-part;
 }
 
 section .grey-part {
