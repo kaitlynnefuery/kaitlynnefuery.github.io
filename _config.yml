@@ -1,13 +1,24 @@
 title: Kaitlynne Fuery - Interactive Resume
 email: kaitlynnefuery@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/resume" # the subpath of your site, e.g. /blog
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: kcfuery
-github_username:  kaitlynnefuery
+  Hi there! I'm Kaitlynne - a front-end web developer with a background in design.
+baseurl: ""
+#url: "http://kaitlynnefuery.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+encoding: utf-8
+
+collections:
+  resume:
+    output: true
+
+
+#gh-pages gem
+source 'https://rubygems.org'
+
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+
+gem 'github-pages', versions['github-pages']
