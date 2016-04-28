@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Screenshot Compare</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/underscore-min.js"></script>
+</head>
+<body>
+  <form>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        Select Screenshot:
+
+        <select id="screenshot">
+          {{#screenshots}}
+          <option value="{{name}}">{{name}}</option>
+          {{/screenshots}}
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4 col-md-1">
+        {{#os}}
+        <input type="radio" name="os" value="{{.}}">{{.}}<br>
+        {{/os}}
+      </div>
+      <div class="col-xs-4 col-md-1">
+        {{#browser}}
+        <input type="radio" name="browser" value="{{.}}">{{.}}<br>
+        {{/browser}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <img id="image">
+      </div>
+    </div>
+  </form>
+  <script src="js/app.js"></script>
+</body>
+</html>

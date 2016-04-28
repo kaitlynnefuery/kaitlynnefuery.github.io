@@ -1,0 +1,68 @@
+h2, h3, h4 {
+    margin-top: 1em;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: $brand-color;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.page-header {
+  text-align: center;
+}
+
+/*Skills Section of Resume*/
+
+#skills li {
+  min-height: 30px;
+  padding: 3px 0px;
+}
+
+#skills li:hover {
+  background: #F2F2F2;
+}
+
+#skills .skills-title {
+  display: inline-block;
+  width: 60%;
+}
+
+#skills .skills-rating {
+  float: right;
+}
+
+.skills-rating .star:before {
+  font-family: FontAwesome;
+  content: "\f005";
+  font-size: 14pt;
+  color: $grey-color;
+  
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.skills-rating .filled:before {
+  font-family: FontAwesome;
+  content: "\f005";
+  font-size: 14pt;
+  color: $brand-color;
+    
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#skills li:hover div.skill-rating.star {
+  margin-left: 2px;
+} 
