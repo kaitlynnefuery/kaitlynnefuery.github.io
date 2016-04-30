@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    //border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -35,6 +35,7 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        text-transform: uppercase;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -98,8 +99,9 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    //border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: $grey-color;
 }
 
 .footer-heading {
@@ -110,14 +112,22 @@
 .contact-list,
 .social-media-list {
     list-style: none;
-    margin-left: 0;
+    
+    a {
+        margin: 0 7px;
+    }
 }
+
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    color: #fff;
     @extend %clearfix;
+    text-align: center;
+    
+    a {
+        color: #fff;
+    }
 }
 
 .footer-col {

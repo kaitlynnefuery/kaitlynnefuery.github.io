@@ -15,7 +15,7 @@ _History of the Built Environment Minor, August 2009 - May 2013_
 Background in form and space, site relations, structures, construction, landscape, environmental design, and computer graphic technologies.
 Strong emphasis in abstract thinking and green design. 
 
-## Cambridge University Kings College
+## Cambridge University | Kings College
 
 <i class="fa fa-map-marker" aria-hidden="true"></i> CAMBRIDGE, UK
 

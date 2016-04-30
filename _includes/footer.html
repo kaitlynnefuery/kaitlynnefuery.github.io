@@ -2,37 +2,15 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading"></h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="">
         <ul class="contact-list">
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          <a title="Twitter" href="https://twitter.com/kcfuery" target="_blank">
-            <i class="fa fa-twitter"></i>
-          </a>
-          <a title="Facebook" href="https://www.facebook.com/kaitlynne.fuery" target="_blank">
-			<i class="fa fa-facebook-f"></i>
-          </a>
-          <a title="LinkedIn" href="https://www.linkedin.com/in/kaitlynnefuery" target="_blank">
-			<i class="fa fa-linkedin"></i>
-          </a>
-          <a title="GitHub" href="https://github.com/kaitlynnefuery" target="_blank">
-            <i class="fa fa-github" aria-hidden="true"></i>
-          </a>
-          <a title="Instragram" href="https://www.instagram.com/kaitlynnefuery/" target="_blank">
-			<i class="fa fa-instagram"></i>
-          </a>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="">
+		{% include social-media.html %}
       </div>
     </div>
 
