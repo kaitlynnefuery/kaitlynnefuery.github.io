@@ -6,6 +6,8 @@ permalink: /contact/
 
 # Say Hello!
 
+![Phone Contact]({{ site.baseurl }}/assets/contact_table.png)
+
 # Have a Question?
 
 Get in touch by using the form on the right. I'd love to hear from you!

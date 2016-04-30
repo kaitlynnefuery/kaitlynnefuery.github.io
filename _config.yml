@@ -1,4 +1,4 @@
-title: Kaitlynne Fuery - Interactive Resume
+title: Front-End Web Development 
 email: kaitlynnefuery@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi there! I'm Kaitlynne - a front-end web developer with a background in design.
@@ -19,3 +19,6 @@ gem 'github-pages', group: :jekyll_plugins
 
 exclude:
   - Gemfile
+  - Gemfile.lock
+  - compare
+  - README.md
