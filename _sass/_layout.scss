@@ -8,6 +8,11 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    z-index: 1000;
+    
+    a:hover {
+        text-decoration: none;
+    }
 }
 
 .site-title {
@@ -33,7 +38,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: #fff;
         line-height: $base-line-height;
         text-transform: uppercase;
 
