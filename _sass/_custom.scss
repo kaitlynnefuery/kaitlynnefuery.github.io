@@ -15,15 +15,23 @@ h3 {
     font-size: 24px;
 }
 
+.hero-header {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 44%;
+    z-index: 100;
+}
+
 .page-header {
-  text-align: center;
+    text-align: center;
 }
 
 #kaitlynne img {
-    border-radius: 20%;
-    height: 250px;
-    width: auto;
-}
+    float: right;
+    width: 300px;
+    height: auto;
+	}
 
 .overlay,
 .hero {
@@ -37,9 +45,18 @@ h3 {
     overflow: hidden;
 }
 
+.hero img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
 .overlay {
-    background-color: $grey-color;
-    opacity: 0.5;
+    background-color: rgba(64,64,64,.7);
+    opacity: 0.6;
     z-index: 99;
 }
 
@@ -89,4 +106,13 @@ h3 {
 
 #skills li:hover div.skill-rating.star {
   margin-left: 2px;
-} 
+}
+
+/*Contact Form*/
+form {
+    padding: 2em 0;
+    
+    legend {
+        font-weight: 400;
+    }
+}

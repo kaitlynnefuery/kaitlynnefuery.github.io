@@ -2,6 +2,9 @@
 layout: default
 title: Resume
 permalink: /resume/
+image:
+alt: 
+header: Resume
 ---
 
 

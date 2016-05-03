@@ -2,14 +2,15 @@
 layout: default
 title: About
 permalink: /about/
+image: /assets/golden_gate.png
+alt: Golden Gate Bridge
+header: About
 ---
 
-# Hi there, I'm Kaitlynne
+## Hi there, I'm Kaitlynne
 
-<div class="overlay">
-    <div class="hero">
-        <img src="{{ site.baseurl }}/assets/golden_gate.png" alt="Golden Gate Bridge" />
-    </div>
+<div id="kaitlynne">
+    <img src="{{ site.baseurl }}/assets/about.jpg" alt="my face!">
 </div>
 
 honest and direct
@@ -46,6 +47,3 @@ the role of Web Developer requires.
 If you're interested in speaking with me, feel free to shoot me an email at
 <a href="mailto:kaitlynnefuery@gmail.com">kaitlynnefuery@gmail.com</a> or connect with me on LinkedIn.
 
-<div id="kaitlynne">
-    <img src="{{ site.baseurl }}/assets/about.jpg" alt="my face!">
-</div>
