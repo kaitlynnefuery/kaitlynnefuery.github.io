@@ -26,7 +26,8 @@ permalink: /resume/skills/
                     <span class="filled"></span>
                     <span class="filled"></span>
                 </div>
-                <li>
+            </li>
+            <li>
                 <div class="skills-title">JavaScript</div>
                 <div class="skills-rating">
                     <span class="filled"></span>
@@ -36,6 +37,15 @@ permalink: /resume/skills/
                     <span class="star"></span>
                 </div>
             </li>
+            <li>
+                <div class="skills-title">Ruby</div>
+                <div class="skills-rating">
+                    <span class="filled"></span>
+                    <span class="filled"></span>
+                    <span class="filled"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                </div>
             </li>
         </ul>
             
@@ -119,6 +129,46 @@ permalink: /resume/skills/
                     <span class="filled"></span>
                 </div>
             </li>
+            <li>
+                <div class="skills-title">Responsive Web Development</div>
+                <div class="skills-rating">
+                    <span class="star filled"></span>
+                    <span class="star filled"></span>
+                    <span class="star filled"></span>
+                    <span class="star filled"></span>
+                    <span class="star filled"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skills-title">Jekyll</div>
+                <div class="skills-rating">
+                    <span class="filled"></span>
+                    <span class="filled"></span>
+                    <span class="filled"></span>
+                    <span class="filled"></span>
+                    <span class="filled"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skills-title">Markdown</div>
+                <div class="skills-rating">
+                    <span class="filled"></span>
+                    <span class="filled"></span>
+                    <span class="filled"></span>
+                    <span class="filled"></span>
+                    <span class="filled"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skills-title">Cicle CI</div>
+                <div class="skills-rating">
+                    <span class="filled"></span>
+                    <span class="filled"></span>
+                    <span class="filled"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                </div>
+            </li>
         </ul>
 
 
@@ -192,60 +242,6 @@ permalink: /resume/skills/
                     <span class="filled"></span>
                     <span class="filled"></span>
                     <span class="filled"></span>
-                </div>
-            </li>
-        </ul>
-
-
-        <ul>
-            <li>
-                <div class="skills-title">Responsive Web Development</div>
-                <div class="skills-rating">
-                    <span class="star filled"></span>
-                    <span class="star filled"></span>
-                    <span class="star filled"></span>
-                    <span class="star filled"></span>
-                    <span class="star filled"></span>
-                </div>
-            </li>
-            <li>
-                <div class="skills-title">Jekyll</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                </div>
-            </li>
-            <li>
-                <div class="skills-title">Ruby</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="star"></span>
-                    <span class="star"></span>
-                </div>
-            </li>
-            <li>
-                <div class="skills-title">Markdown</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                </div>
-            </li>
-            <li>
-                <div class="skills-title">Cicle CI</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="star"></span>
-                    <span class="star"></span>
                 </div>
             </li>
         </ul>
