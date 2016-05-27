@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Skills
+title: SKILLS
 permalink: /resume/skills/
 ---
 
