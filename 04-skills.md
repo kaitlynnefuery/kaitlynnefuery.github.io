@@ -1,11 +1,11 @@
 ---
 layout: default
-title: SKILLS
-permalink: /resume/skills/
+title: Skills
+header: SKILLS
 ---
 
 <div id="skills">
-    <h2>Languages</h2>
+    <h3>>> LANGUAGES</h3>
         <ul>
             <li>
                 <div class="skills-title">HTML5</div>
@@ -49,7 +49,7 @@ permalink: /resume/skills/
             </li>
         </ul>
             
-    <h2>Frameworks</h2>
+    <h3>>> FRAMEWORKS</h3>
         <ul>
             <li>
                 <div class="skills-title">Bootstrap</div>
@@ -62,17 +62,7 @@ permalink: /resume/skills/
                 </div>
             </li>
             <li>
-                <div class="skills-title">Less</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="star"></span>
-                </div>
-            </li>
-            <li>
-                <div class="skills-title">Sass</div>
+                <div class="skills-title">Less/Sass</div>
                 <div class="skills-rating">
                     <span class="filled"></span>
                     <span class="filled"></span>
@@ -93,31 +83,7 @@ permalink: /resume/skills/
             </li>
         </ul>
 
-    <h2>Databases</h2>
-        <ul>
-            <li>
-                <div class="skills-title">SQL (HeidiSQL, SQLPro)</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="star"></span>
-                    <span class="star"></span>
-                </div>
-            </li>
-            <li>
-                <div class="skills-title">NoSQL (MondoDB)</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="star"></span>
-                    <span class="star"></span>
-                </div>
-            </li>
-        </ul>
-
-    <h2>Other</h2>
+    <h3>>> OTHER</h3>
         <ul>
             <li>
                 <div class="skills-title">Git</div>
@@ -127,6 +93,16 @@ permalink: /resume/skills/
                     <span class="filled"></span>
                     <span class="filled"></span>
                     <span class="filled"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skills-title">MySQL</div>
+                <div class="skills-rating">
+                    <span class="star filled"></span>
+                    <span class="star filled"></span>
+                    <span class="star filled"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
                 </div>
             </li>
             <li>
@@ -150,16 +126,6 @@ permalink: /resume/skills/
                 </div>
             </li>
             <li>
-                <div class="skills-title">Markdown</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                </div>
-            </li>
-            <li>
                 <div class="skills-title">Cicle CI</div>
                 <div class="skills-rating">
                     <span class="filled"></span>
@@ -169,33 +135,8 @@ permalink: /resume/skills/
                     <span class="star"></span>
                 </div>
             </li>
-        </ul>
-
-
-    <h2>Design Software</h2>
-        <ul>
             <li>
-                <div class="skills-title">Photoshop</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                </div>
-            </li>
-            <li>
-                <div class="skills-title">Illustrator</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                </div>
-            </li>
-            <li>
-                <div class="skills-title">InDesign</div>
+                <div class="skills-title">Adobe Creative Suite</div>
                 <div class="skills-rating">
                     <span class="filled"></span>
                     <span class="filled"></span>
@@ -206,36 +147,6 @@ permalink: /resume/skills/
             </li>
             <li>
                 <div class="skills-title">AutoCAD</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                </div>
-            </li>
-            <li>
-                <div class="skills-title">Rhino & V-Ray</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                </div>
-            </li>
-            <li>
-                <div class="skills-title">Google SketchUp</div>
-                <div class="skills-rating">
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                    <span class="filled"></span>
-                </div>
-            </li>
-            <li>
-                <div class="skills-title">Modo</div>
                 <div class="skills-rating">
                     <span class="filled"></span>
                     <span class="filled"></span>

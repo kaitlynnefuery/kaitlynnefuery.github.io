@@ -1,14 +1,14 @@
 ---
 layout: default
-title: EDUCATION
-permalink: /resume/education/
+title: Education
+header: EDUCATION
 ---
 
-<div class="pull-right">
+<div class="pull-right location">
 <i class="fa fa-map-marker" aria-hidden="true"></i> BERKELEY, CA
 </div>
 					
-## University of California, Berkeley			
+## UNIVERSITY OF CALIFORNIA, BERKELEY		
 
 _May 2013_
 
