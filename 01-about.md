@@ -5,7 +5,7 @@ header: PROFILE
 ---
 
 <div id="kaitlynne" class="col-sm-4 col-md-4 col-lg-4 pull-right">
-    <img src="{{ site.baseurl }}/assets/about.jpg" alt="my face!">
+    <img src="kaitlynnefuery.github.io/assets/about.jpg" alt="my face!">
 </div>
 
 Developer + Designer hybrid with 3+ years experience developing websites and user interfaces using HTML, CSS, and JavaScript.
