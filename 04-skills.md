@@ -5,7 +5,7 @@ header: SKILLS
 ---
 
 <div id="skills">
-    <h3>>> LANGUAGES</h3>
+    <h3><i class="fa fa-angle-double-right" aria-hidden="true"></i> LANGUAGES</h3>
         <ul>
             <li>
                 <div class="skills-title">HTML5</div>
@@ -49,7 +49,7 @@ header: SKILLS
             </li>
         </ul>
             
-    <h3>>> FRAMEWORKS</h3>
+    <h3><i class="fa fa-angle-double-right" aria-hidden="true"></i> FRAMEWORKS</h3>
         <ul>
             <li>
                 <div class="skills-title">Bootstrap</div>
@@ -83,7 +83,7 @@ header: SKILLS
             </li>
         </ul>
 
-    <h3>>> OTHER</h3>
+    <h3><i class="fa fa-angle-double-right" aria-hidden="true"></i> OTHER</h3>
         <ul>
             <li>
                 <div class="skills-title">Git</div>
