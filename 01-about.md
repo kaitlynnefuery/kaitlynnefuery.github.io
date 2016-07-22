@@ -4,8 +4,8 @@ title: Profile
 header: PROFILE
 ---
 
-<div id="kaitlynne" class="col-sm-4 col-md-4 col-lg-4 pull-right">
-    <img src="{{ site.baseurl }}/assets/about.jpg" alt="my face!">
+<div id="kaitlynne" class="col-sm-5 col-md-5 col-lg-5 pull-right">
+    <img src="{{ site.baseurl }}/assets/kaitlynne.jpg" alt="kaitlynne">
 </div>
 
 Developer + Designer hybrid with 3+ years experience developing websites and user interfaces using HTML, CSS, and JavaScript.
@@ -16,4 +16,5 @@ the user through the site and/or application.
 In my downtime you can find me with a cup of coffee, brunching with close friends, travelling, or staying fit by running, lifting, or swimming.
 
 If you're interested in speaking with me, feel free to shoot me an email at
-<a href="mailto:kaitlynnefuery@gmail.com">kaitlynnefuery@gmail.com</a> or connect with me on LinkedIn.
+<a href="mailto:kaitlynnefuery@gmail.com">kaitlynnefuery@gmail.com</a> or connect with me on
+<a href="linkedin.com/in/kaitlynnefuery">LinkedIn</a>.
