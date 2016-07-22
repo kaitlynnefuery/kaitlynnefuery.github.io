@@ -13,7 +13,7 @@ Working in a startup environment for 8 years allowed me to wear many hats and ha
 From this experience, I harnessed my design background with a newfound love for developing usable web interfaces that guide
 the user through the site and/or application.
 
-In my downtime you can find me with a cup of coffee, brunching with close friends, travelling, or staying fit by running, lifting, or swimming.
+In my downtime you can find me with a cup of coffee, brunching with close friends, traveling, or staying fit by running, lifting, or swimming.
 
 If you're interested in speaking with me, feel free to shoot me an email at
 <a href="mailto:kaitlynnefuery@gmail.com">kaitlynnefuery@gmail.com</a> or connect with me on
