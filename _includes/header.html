@@ -1,6 +1,6 @@
 <header class="site-header">
 
-  <div class="wrapper sticky hidden">
+  <div class="wrapper" id="sticky">
 
 <!--    <a class="site-title" href="{{ site.baseurl }}/"></a>-->
 
@@ -13,10 +13,10 @@
         </svg>
       </a>
 
-      <div class="trigger">
+      <div class="trigger scrollto" id="{{ my_page.anchor }}">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <a class="page-link" href="#{{ my_page.anchor }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
@@ -24,7 +24,7 @@
   </div>
   
   <div class="text-center wrapper">
-    <h1 class="page-header" style="font-size: 3.5em; margin-bottom: 0;"><span class="grey">KAITLYNNE</span> FUERY</h1>
+    <h1 class="page-header main"><span class="grey">KAITLYNNE</span> FUERY</h1>
     <h3 style="margin: 0 0 2em 0; font-weight: normal;">WEB DEVELOPER & DESIGNER</h3>
     <hr width=100%>
   </div>

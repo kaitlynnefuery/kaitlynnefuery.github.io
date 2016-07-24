@@ -29,6 +29,22 @@ div.projects h4 {
     border: none
 }
 
+//page-header 'Kaitlynne Fuery' custom styles
+.main {
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+
+@include media-query($on-palm) { 
+    .main {
+        font-size: 2.25em;
+    }
+}
+
+.site-footer {
+    margin-top: 2%;
+}
+
 #kaitlynne img {
     //max-width: 200px;
     border-radius: 5%;
@@ -102,7 +118,7 @@ form {
 }
 
 /*Sticky Header*/
-.sticky {
+#sticky {
     background-color: $brand-color;
 }
 

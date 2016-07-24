@@ -2,7 +2,10 @@
 layout: default
 title: Education
 header: EDUCATION
+anchor: education
 ---
+
+<a name="education"></a>
 
 <div class="pull-right location">
 <i class="fa fa-map-marker" aria-hidden="true"></i> BERKELEY, CA

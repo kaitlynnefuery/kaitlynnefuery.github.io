@@ -1,11 +1,12 @@
 
 //sticky header
-$(document).ready(function(){
-    $(".sticky").sticky({topSpacing:200px});
+
+$(function () {
+   $('#sticky').stickyNavbar();
 });
 
 //resume skills section - enlarge li/row on hover
-$("#skills li").hover(
+$('#skills li').hover(
     function() {
         $( this ).addClass("skills-hover")
     }, function() {

@@ -2,7 +2,10 @@
 layout: default
 title: Skills
 header: SKILLS
+anchor: skills
 ---
+
+<a name="skills"></a>
 
 <div id="skills">
     <h3><i class="fa fa-angle-double-right" aria-hidden="true"></i> LANGUAGES</h3>
