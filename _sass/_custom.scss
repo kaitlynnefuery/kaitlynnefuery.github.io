@@ -23,9 +23,33 @@ h3 {
 
 .anchor {
     display: block;
-    height: 100px; /*same height as header*/
-    margin-top: -100px; /*same height as header*/
+    height: 156px; /*same height as header + sticky navbar*/
+    margin-top: -156px;
     visibility: hidden; 
+}
+
+.main-nav {
+    background-color: $brand-color;
+    position: relative; 
+    box-shadow: 0 2px 3px rgba(0,0,0,.4);
+    transition: top 1s ease;
+    -webkit-transition: top 1s ease;
+    -moz-transition: top 1s ease;
+    -o-transition: top 1s ease;
+    -ms-transition: top 1s ease;
+    display: none;
+}
+.main-nav-scrolled {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    visibility: visible;
+    transition: top 1s ease;
+    -webkit-transition: top 1s ease;
+    -moz-transition: top 1s ease;
+    -o-transition: top 1s ease;
+    -ms-transition: top 1s ease;
 }
 
 div.projects h4 {
@@ -128,12 +152,7 @@ form {
     }
 }
 
-/*Sticky Header*/
-#sticky {
-    background-color: $brand-color;
-    max-width: 100%;
-}
-
 .grey {
     color: $grey-color;
 }
+

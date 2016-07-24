@@ -1,11 +1,14 @@
 
 //sticky header
-
-$(function () {
-   $('#sticky').stickyNavbar();
+$(window).scroll(function() {
+  if( $(this).scrollTop() > $('header').height() ) {
+    $(".main-nav").addClass("main-nav-scrolled").fadeIn();
+  } else {
+    $(".main-nav").removeClass("main-nav-scrolled").css({"display" : "none"});
+  }
 });
 
-//resume skills section - enlarge li/row on hover
+//skills section - enlarge li/row on hover
 $('#skills li').hover(
     function() {
         $( this ).addClass("skills-hover")
