@@ -5,7 +5,7 @@ header: EDUCATION
 anchor: education
 ---
 
-<a name="education"></a>
+<a name="education" class="anchor"></a>
 
 <div class="pull-right location">
 <i class="fa fa-map-marker" aria-hidden="true"></i> BERKELEY, CA

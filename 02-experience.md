@@ -5,7 +5,7 @@ header: PROFESSIONAL EXPERIENCE
 anchor: experience
 ---
 
-<a name="experience"></a>
+<a name="experience" class="anchor"></a>
 
 <div class="pull-right location">
     <i class="fa fa-map-marker" aria-hidden="true"></i> OAKLAND, CA

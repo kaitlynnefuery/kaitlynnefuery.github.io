@@ -5,6 +5,6 @@ header: CONTACT
 anchor: contact
 ---
 
-<a name="contact"></a>
+<a name="contact" class="anchor"></a>
 
 {% include contact_form.html %}

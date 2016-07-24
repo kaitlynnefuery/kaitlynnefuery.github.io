@@ -5,7 +5,7 @@ header: PROFILE
 anchor: profile
 ---
 
-<a name="profile"></a>
+<a name="profile" class="anchor"></a>
 
 <div id="kaitlynne" class="col-sm-5 col-md-5 col-lg-5 pull-right">
     <img src="{{ site.baseurl }}/assets/kaitlynne.JPG" alt="kaitlynne">

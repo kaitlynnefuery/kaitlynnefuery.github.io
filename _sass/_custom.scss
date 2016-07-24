@@ -17,6 +17,17 @@ h3 {
     font-weight: 600;
 }
 
+.site-title {
+   line-height: inherit;
+}
+
+.anchor {
+    display: block;
+    height: 100px; /*same height as header*/
+    margin-top: -100px; /*same height as header*/
+    visibility: hidden; 
+}
+
 div.projects h4 {
     margin-bottom: 0.25em;
     font-weight: 600;
@@ -120,6 +131,7 @@ form {
 /*Sticky Header*/
 #sticky {
     background-color: $brand-color;
+    max-width: 100%;
 }
 
 .grey {

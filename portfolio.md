@@ -5,4 +5,4 @@ header: PORTFOLIO
 anchor: portfolio
 ---
 
-<a name="portfolio"></a>
+<a name="portfolio" class="anchor"></a>
