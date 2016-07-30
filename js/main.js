@@ -1,7 +1,7 @@
 
 //sticky header
 $(window).scroll(function() {
-  if( $(this).scrollTop() > $('header').height() ) {
+  if( $(this).scrollTop() > $('main').height() ) {
     $(".main-nav").addClass("main-nav-scrolled").fadeIn();
   } else {
     $(".main-nav").removeClass("main-nav-scrolled").css({"display" : "none"});
