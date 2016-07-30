@@ -25,12 +25,12 @@ h3 {
     display: block;
     height: 156px; /*same height as header + sticky navbar*/
     margin-top: -156px;
-    visibility: hidden; 
+    visibility: hidden;
 }
 
 .main-nav {
     background-color: $brand-color;
-    position: relative; 
+    position: relative;
     box-shadow: 0 2px 3px rgba(0,0,0,.4);
     transition: top 1s ease;
     -webkit-transition: top 1s ease;
@@ -70,12 +70,6 @@ div.projects h4 {
     margin-bottom: 0;
 }
 
-@include media-query($on-palm) { 
-    .main {
-        font-size: 2.25em;
-    }
-}
-
 .site-footer {
     margin-top: 2%;
 }
@@ -84,6 +78,7 @@ div.projects h4 {
     //max-width: 200px;
     border-radius: 5%;
     display: inline-block;
+    margin-bottom: 20px;
 	}
 
 .indent-left {
@@ -99,54 +94,30 @@ div.projects h4 {
   min-height: 30px;
   padding: 3px 0px;
   list-style: none;
-}
-
-#skills li:hover {
-  background: #F2F2F2;
-  padding: .5em 0 .5em 1em;
-}
-
-#skills .skills-title {
+  display: -webkit-inline-box;
   display: inline-block;
-  width: 60%;
+  width: 26.9%;
+  // padding: 1.5% 0;
+  margin: 1.5% 3%;
 }
 
-#skills .skills-rating {
-  float: right;
+#skills li i {
+  padding-right: 1em;
 }
 
-.skills-rating .star:before {
-  font-family: FontAwesome;
-  content: "\f005";
-  font-size: 14pt;
-  color: $grey-color-light;
-  
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.skills-rating .filled:before {
-  font-family: FontAwesome;
-  content: "\f005";
-  font-size: 14pt;
-  color: $brand-color;
-    
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-#skills li:hover div.skill-rating.star {
-  margin-left: 2px;
+@include media-query($on-palm) {
+    #skills li {
+        width: 41%;
+    }
+    .main {
+        font-size: 2.25em;
+    }
 }
 
 /*Contact Form*/
 form {
     padding: 2em 0;
-    
+
     legend {
         font-weight: 400;
     }
@@ -155,4 +126,3 @@ form {
 .grey {
     color: $grey-color;
 }
-
