@@ -6,10 +6,22 @@
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+    <!-- OpenGraph -->
+		<meta property="og:title" content="Kaitlynne Fuery - Web Developer">
+		<meta property="og:description" content="Kaitlynne Fuery is a web developer and designer with 3+ years experience
+    developing websites using HTML, CSS, and JavaScript.">
+		<meta property="og:type" content="site">
+		<meta property="og:image" content="http://kaitlynnefuery.com/assets/kaitlynne.JPG">
+		<meta property="og:url" content="http://kaitlynnefuery.com">
+		<meta name="description" content="Kaitlynne Fuery is a web developer and designer with 3+ years experience
+    developing websites using HTML, CSS, and JavaScript.">
+		<meta name="twitter:site" content="@kcfuery">
+		<meta name="twitter:card" content="summary">
+
     <!-- Favicons -->
-	<link rel="icon" type="image/png" href="{{ "/assets/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16">
-	<link rel="icon" type="image/png" href="{{ "/assets/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32">
-	<link rel="icon" type="image/png" href="{{ "/assets/favicon-96x96.png" | prepend: site.baseurl }}" sizes="96x96">
+	  <link rel="icon" type="image/png" href="{{ "/assets/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16">
+  	<link rel="icon" type="image/png" href="{{ "/assets/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32">
+	  <link rel="icon" type="image/png" href="{{ "/assets/favicon-96x96.png" | prepend: site.baseurl }}" sizes="96x96">
 
     <!-- jQuery: must load prior to bootstrap js. Can't be version 3, boostrap dependancy -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
@@ -23,7 +35,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600|Lato' rel='stylesheet' type='text/css'>
 
     <!-- JS -->
-	<script type="text/javascript" src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+	  <script type="text/javascript" src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
 
     <!--Font Awesome "Extension" - for icons missing in font-awesome-->
     <link rel="stylesheet" type="text/css" href="{{ "/css/font-mfizz/font-mfizz.css" | prepend: site.baseurl }}">
