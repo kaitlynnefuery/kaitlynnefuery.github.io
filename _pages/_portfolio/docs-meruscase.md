@@ -1,4 +1,4 @@
 ---
 layout: page
-sub-title:
+subtitle:
 ---

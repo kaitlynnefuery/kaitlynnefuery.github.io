@@ -1,5 +1,6 @@
 ---
 layout: page
+subtitle: Rhythmix Round the World Graphics Package
 ---
 
 ## Round the World Graphics Package

@@ -1,6 +1,6 @@
 ---
-layout: portfolio-item
-title2: LailiBug Studios Halfsheet
+layout: page
+subtitle: LailiBug Studios Half-sheet
 ---
 
 ## LailiBug Studios Half-sheet

@@ -1,5 +1,6 @@
 ---
-layout: portfolio-item
+layout: page
+subtitle: Rythmix Event Posters
 ---
 
 ## Rhythmix Event Posters
