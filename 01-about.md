@@ -20,4 +20,4 @@ In my downtime you can find me with a cup of coffee, brunching with close friend
 
 If you're interested in speaking with me, feel free to shoot me an email at
 <a href="mailto:kaitlynnefuery@gmail.com">kaitlynnefuery@gmail.com</a> or connect with me on
-<a href="linkedin.com/in/kaitlynnefuery">LinkedIn</a>.
+<a href="http://linkedin.com/in/kaitlynnefuery">LinkedIn</a>.
