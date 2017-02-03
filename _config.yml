@@ -1,7 +1,7 @@
 title: Kaitlynne Fuery | Web Developer
 email: kaitlynnefuery@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi there! I'm Kaitlynne - a front-end web developer with a background in design.
+  Hi there! I'm Kaitlynne - a web developer with a background in design.
 baseurl: ""
 url: "http://kaitlynnefuery.com" # the base hostname & protocol for your site
 
@@ -10,7 +10,7 @@ markdown: kramdown
 encoding: utf-8
 
 collections:
-  resume:
+  portfolio:
     output: true
   assets:
     output: true
